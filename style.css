@@ -33,8 +33,10 @@ font-size: 18px;
     text-decoration: none;
 }
 
-a {
-
+a.header-links {
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 .header-container {
