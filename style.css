@@ -13,6 +13,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 img.temple-img{
     width: 100%;
     border: 5px solid white;
@@ -23,17 +27,17 @@ ul.links {
     display: flex;
     gap: 16px;
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
 
-a, .header-links, .sub-hero {
-font-size: 18px;
+.header-links, .sub-hero {
+    font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
-a.header-links {
+.header-links {
     padding: 4px;
     border: 2px solid white;
     border-radius: 15px;
@@ -65,12 +69,13 @@ a.header-links {
 .info-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 10vh 0; 
+    padding: 10vh 0 10vh 0; 
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
+    padding: 16px 16px 0 0;
     width: 50%;
     flex: 1;
 }
@@ -78,9 +83,7 @@ a.header-links {
 .hero{
     font-size: 48px;
     font-weight: 900;
-    /* padding: 20px 0px 0 0; */
     color: #F9FAF8;
-    /* align-self: flex-end; */
     min-width: 200px;
 }
 
@@ -91,6 +94,25 @@ a.header-links {
 .header-img{
     display: flex;
     flex: 1;
-    /* padding-top: 20px; */
-    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+div.hero-button{
+    display: flex;
+    margin: 10px 0;
+}
+
+button.hero-button {
+    background-color: #3882f6;
+    border: transparent;
+    padding: 8px;
+    height: 2;
+    border-radius: 10px;
+}
+
+a.hero-button {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 18px;
 }
