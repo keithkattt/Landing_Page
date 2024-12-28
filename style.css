@@ -27,10 +27,14 @@ ul.links {
     padding: 0;
 }
 
-a, .sub-hero {
-    font-size: 18px;
+a, .header-links, .sub-hero {
+font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+a {
+
 }
 
 .header-container {
