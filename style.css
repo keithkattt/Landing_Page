@@ -116,3 +116,15 @@ a.hero-button {
     color: white;
     font-size: 18px;
 }
+
+.mainInfo-container{
+    display: flex;
+    flex-direction: column;
+}
+.mainInfo-header{
+    margin: 20px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+}
