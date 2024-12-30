@@ -93,6 +93,7 @@ ul.links {
 
 .header-img{
     display: flex;
+    min-width: 200px;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
@@ -130,9 +131,38 @@ a.hero-button {
 }
 
 .mainInfo-cities{
-    align-self: center;
+    display: flex;
+    padding: 16px;
+    gap: 58px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.mainInfo-items {
-    
+.mainInfo-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
 }
+
+
+img.maininfo-img {
+    height: auto;
+    min-width: 200px;
+    max-width: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 30px;
+}
+
+
+.mainInfo-text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 255px;
+    margin: 16px;
+}
+
