@@ -1,3 +1,3 @@
 # Landing_Page
 
-Project: Landing Page by Odin Project
+Landing Page of the Japan Travel Bucket List that I would want to go in the future
