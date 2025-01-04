@@ -209,7 +209,7 @@ img.maininfo-img {
     align-items: center;
     justify-content: center;
     min-height: 30vh;
-    padding: 32px;
+    padding: 64px;
     
 }
 
@@ -263,3 +263,17 @@ img.maininfo-img {
     cursor: pointer;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 3vh 0 3vh 0;
+}
+
+.footer-text{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
