@@ -202,3 +202,46 @@ img.maininfo-img {
     font-weight: 900;
 }
 
+.signUp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    padding: 32px;
+}
+
+.signUp-banner{
+    display: flex;
+    font-size: 24px;
+    background-color: #3882f6;
+    min-width: 75%;
+    padding: 32px 64px;
+    justify-content: center;
+    align-content: center;
+}
+
+.signUp-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 900;
+    color: #E5E7EB;
+    padding: 16px;
+}
+
+.signUp-subtext{
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.signUp-button{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 24px;
+    padding: 16px;
+    border: transparent;
+    border-radius: 10px;
+}
