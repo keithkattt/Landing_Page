@@ -178,6 +178,12 @@ img.maininfo-img {
     color: #1F2937;
 }
 
+.qoute-width{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .qoute {
     display: flex;
     padding: 10px;
